@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho"> <img src="./src/imagens/logo.png" alt="Logo X-Men"></header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um veículo </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="rx-7" data-name="Mazda RX-7 (FD3S)" data-description="Com uma história rica de vitórias e falhas, o
+                Mazda RX-7 é definitivamente um dos 3 figurões japoneses no mercado automotivo. Seu propulsor é um rotativo de 2 rotores turbo, gerando 270cv ao condutor.">
+                    <img src="./src/imagens/card-rx7.jpg" alt="Mazda RX-7 (FD3S)" >  
+                </li>
+
+                <li class="personagem" id="gt-86" data-name="Toyota GT-86 (ZN6)" data-description="Feito para ser um coupe esportivo de baixa potencia, homenageando seu antecessor, o Corolla AE86. Seu propulsor é um Boxer 4 cilindros aspirado, que entrega 200cv ao condutor">
+                    <img src="./src/imagens/card-gt-86.jpg" alt="Toyota GT-86" >
+                </li>
+
+                <li class="personagem" id="supra-mk4" data-name="Toyota Supra Turbo (JZA80)" data-description="Um dos Toyotas mais conhecidos no mundo, por ser super limitado originalmente e ter um potencial absurdo de seu propulsor de 6 cilindros bi-turbo, que gera 320cv">
+                    <img src="./src/imagens/card-supra-mk4.jpg" alt="Toyota Supra Turbo MK4" >
+                </li>
+
+                <li class="personagem" id="ae86" data-name="Toyota Sprinter Trueno (AE86)" data-description="feito para ser um carro confiável e ao mesmo tempo um brinquedo de pista, esse é o ultimo Corolla com tração traseira, entregando 150cv de seu propulsor 4 cilindros 1.6">
+                    <img src="./src/imagens/card-ae86.jpg" alt="Toyota Sprinter Trueno AE86" >
+                </li>
+
+                <li class="personagem" id="gloria" data-name="Nissan Gloria/Cedric (Y32)" data-description="Um Sedã médio com cara de ser lerdo e da mafia japonesa, porém tem um propulsor V6 de 3 litros, vindo do Nissan 300ZX , entregando 222cv ao condutor">
+                    <img src="./src/imagens/card-gloria.jpg" alt="Nissan Gloria/Cedric" >
+                </li>
+
+                <li class="personagem" id="300zx" data-name="Nissan 300ZX (Z32)" data-description="Esse Coupe foi desenvolvido com o mesmo motor 3.0 V6 do Gloria/Cedric, porém com um sistema bi-turbo, alavancando a potência do propulsor para 300cv">
+                    <img src="./src/imagens/card-300zx.jpg" alt="Nissan 300-ZX" >
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-rx-7.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Mazda RX-7 (FD3S)</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Com uma história rica de vitórias e falhas, o
+                    Mazda RX-7 é definitivamente um dos 3 figurões japoneses no mercado automotivo. Seu propulsor é um rotativo de 2 rotores turbo, gerando 270cv ao condutor.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
